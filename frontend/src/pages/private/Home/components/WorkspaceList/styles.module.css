@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    max-width: 75rem;
+    margin: 3rem auto 0;
+
+    padding: 3rem 1.5rem;
+    background-color: var(--gray-0);
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.aligned {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}

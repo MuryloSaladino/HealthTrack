@@ -1,0 +1,37 @@
+.container {
+    padding: 1rem;
+    height: calc(100% - 3.5rem);
+}
+.container ol {
+    max-width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+
+    overflow-x: auto;
+}
+
+
+.create_list {
+    min-width: 16rem;
+
+    padding: 1rem;
+    border-radius: 0.3125rem;
+    background-color: var(--gray-0);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    opacity: 0.7;
+
+    cursor: pointer;
+    transition: 0.15ms;
+
+    & span {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+    }
+}
+.create_list:hover, .creating {
+    opacity: 1;
+}
